@@ -6,8 +6,7 @@ function fizzbuzz(number){
         return "fizz";
     } else if (number % 5 === 0) {
         return "buzz";
-    } else {
-        return number;
-    }
+    } return number;
 }
 console.log (fizzbuzz(45));
+console.log (fizzbuzz(1000));
